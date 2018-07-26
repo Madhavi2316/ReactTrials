@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Testdeafult from './MulFunctions';
-import Testing from './MulFunctions';
+import Testdeafult, { Testing } from './MulFunctions';//default export
+//import { Testing } from './MulFunctions';//export
 class MultipleApp extends Component {
     constructor(props){
         super(props);
@@ -8,6 +8,7 @@ class MultipleApp extends Component {
     render(){
         return(
             <div>
+                <Testdeafult />
                 Heading
                 <Testing />
             </div>
