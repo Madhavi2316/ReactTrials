@@ -1,4 +1,5 @@
 import React from 'react';
+
 class testdeafult extends React.Component{
     constructor(props){
         super(props);
@@ -20,7 +21,8 @@ export class Testing extends React.Component{
     render(){
         return(
             <div>
-                Not a default Export
+                Not a default export
+
             </div>
         );
     }
