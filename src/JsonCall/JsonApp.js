@@ -5,6 +5,9 @@ class JsonApp extends Component{
     constructor(props){
         super(props);
     }
+    function(){
+        
+    }
     render(){
         return (
             // <ul>
