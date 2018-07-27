@@ -12,8 +12,9 @@ class RefApp extends Component{
         
     }
     btnCheck1(){ 
-
-        console.log(this.Ref1.current);
+        alert("Ref1");
+        let refValue= this.Ref1.current.value;
+        console.log(refValue);
     }
     btnCheck2(){
         // console.log(this.Ref1.current.current);

@@ -1,5 +1,5 @@
 import React from 'react';
- const Ref1=(props)=>{
+const Ref1=(props)=>{
       return(
          <div>
              <input  value={props.nme} type="text" name="name" ref={props.ref1} />
