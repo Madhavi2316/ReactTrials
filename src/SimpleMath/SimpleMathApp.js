@@ -20,8 +20,7 @@ class SimpleMathApp extends Component{
     }
     add(e){
        // console.log(this.Ref2.current.value);
-       
-       
+      // this.setState({first:e.target.value});    
 
         let one=Number(this.Ref1.current.value);
         let two=Number(this.Ref2.current.value);
@@ -65,7 +64,7 @@ class SimpleMathApp extends Component{
             <div>
                 Arthemetic Operations<br/>
                 <label>Input 1</label>
-                <input  ref={this.Ref1} type="number" />
+                <input name="first" ref={this.Ref1} type="number" />
                 <label>Input 2</label>
                 <input  ref={this.Ref2} type="number" />
                 
@@ -86,3 +85,28 @@ class SimpleMathApp extends Component{
     }
 }
 export default SimpleMathApp;
+// import React from 'react';
+
+// class SimpleMathApp extends React.Component {
+//    constructor(props) {
+//       super(props);
+      
+//       this.state = {
+//          data: 'Initial data...'
+//       }
+//       this.updateState = this.updateState.bind(this);
+//    };
+//    updateState(e) {
+//       this.setState({data: e.target.value});
+//    }
+//    render() {
+//       return (
+//          <div>
+//             <input type = "text" value = {this.state.data} 
+//                onChange = {this.updateState} />
+//             <h4>{this.state.data}</h4>
+//          </div>
+//       );
+//    }
+// }
+// export default SimpleMathApp;
